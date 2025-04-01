@@ -1,0 +1,38 @@
+/* RatingWidget.css */
+.rating-widget {
+    margin-top: 10px;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .star {
+    font-size: 24px;
+    cursor: pointer;
+    color: lightgray;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .star.filled {
+    color: gold;
+  }
+  
+  .submit-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .submit-btn:disabled {
+    background: gray;
+    cursor: not-allowed;
+  }
+  
